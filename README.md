@@ -1,0 +1,1 @@
+# sbg-nextjs-template-alpha
