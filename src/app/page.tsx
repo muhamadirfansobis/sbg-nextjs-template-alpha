@@ -16,9 +16,6 @@ export default function Home() {
           Next App Landing Page Template
         </h1>
 
-        <div className="font-[family-name:var(--font-geist-mono)]">
-          How to use this template?
-        </div>
         <ol className="list-inside list-decimal text-center font-[family-name:var(--font-geist-mono)] text-sm/6 sm:text-left">
           <li className="mb-2 tracking-[-.01em]">
             Get started by editing{' '}
@@ -35,7 +32,7 @@ export default function Home() {
         <div className="flex flex-col items-center gap-4 sm:flex-row">
           <a
             className="text-background flex h-10 items-center justify-center gap-2 rounded-full border border-solid border-transparent bg-(--color-sbg-500) px-4 text-sm font-medium transition-colors hover:bg-[#383838] hover:text-(--color-foreground) sm:h-12 sm:w-auto sm:px-5 sm:text-base dark:hover:bg-[#ccc]"
-            href="https://sobatbisnis-group.atlassian.net/wiki/spaces/SBG/folder/15925251?atlOrigin=eyJpIjoiNmQ0MTJjNGRhNmJlNGQwOWE0MzM5ZGNhMzI0NTc5NjciLCJwIjoiYyJ9"
+            href="https://github.com/new?template_name=sbg-nextjs-template-alpha&template_owner=muhamadirfansobis"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -46,15 +43,15 @@ export default function Home() {
               width={20}
               height={20}
             />
-            Read Our Guideline
+            Use this template
           </a>
           <a
             className="flex h-10 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-4 text-sm font-medium transition-colors hover:border-transparent hover:text-white sm:h-12 sm:w-auto sm:px-5 sm:text-base md:w-[158px] dark:border-white/[.145] dark:hover:bg-[#1a1a1a]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="https://sobatbisnis-group.atlassian.net/wiki/spaces/SBG/folder/15925251?atlOrigin=eyJpIjoiNmQ0MTJjNGRhNmJlNGQwOWE0MzM5ZGNhMzI0NTc5NjciLCJwIjoiYyJ9"
             target="_blank"
             rel="noopener noreferrer"
           >
-            NextJS docs
+            Read guideline
           </a>
         </div>
       </main>
