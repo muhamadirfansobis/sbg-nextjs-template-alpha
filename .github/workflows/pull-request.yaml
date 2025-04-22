@@ -1,0 +1,27 @@
+name: Code Quality
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  code-test:
+    name: ⏳ Code Quality Testing
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚥 Checkout code
+        uses: actions/checkout@v4
+      - name: 🔩 Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          run_install: false
+      - name: 🔩 Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "pnpm"
+      - name: 🔩 Install Deps (immutable)
+        run: pnpm install --no-frozen-lockfile
+      - name: 🧪 Linting and Testing
+        run: pnpm lint && 
+            pnpm test:related --silent
