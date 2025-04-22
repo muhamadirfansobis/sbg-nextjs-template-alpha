@@ -1,4 +1,4 @@
-# Sobatbisnis Group Next App Starter Template
+# SBG Landing Page Next App Starter Template
 ![Yehezkiel Gunawan's Next JS + Chakra UI Personalized template](https://res.cloudinary.com/dakonxtdt/image/upload/v1745290166/80d04d4f-e211-4ce6-b944-05e26bf0aad5_ou5xvz.svg)
 
 
@@ -10,22 +10,22 @@ This is a Next JS + Tailwind CSS personalized template for Sobatbisnis Group Nex
 
 - Toolings for linting, formatting, and conventions configured.
   `eslint`, `prettier`, `husky`, & `lint-staged`.
-- SEO Optimization (using `next-seo`)
+- Unit testing (using `vitest`)
 - Next JS 15
 
 ## How to use it?
 
-- You can open [yehez-nextchakra-starter.yehezgun.com](https://yehez-nextchakra-starter.yehezgun.com) and click `Use this template` button (**_Don't forget to login to your Github account_**).
-- Or you can clone this repo using degit in your terminal. Don't forget to install the needed dependencies using `npm install` or `yarn`.
+- You can open [sbg-landing-page-template-alpha.vercel.app](https://sbg-landing-page-template-alpha.vercel.app/) and click `Use this template` button (**_Don't forget to login to your Github account_**).
+- Or you can clone this repo using degit in your terminal. Don't forget to install the needed dependencies using `pnpm install`.
 
 ```
-npx degit yehezkielgunawan/yehez-nextchakra-starter <YOUR_APP_NAME>
+npx degit muhamadirfansobis/sbg-nextjs-template-alpha <YOUR_APP_NAME>
 ```
 
 - Or you also can easily use this template by run:
 
 ```
-npx create-next-app --example https://github.com/yehezkielgunawan/yehez-nextchakra-starter <YOUR_APP_NAME>
+npx create-next-app --example https://github.com/muhamadirfansobis/sbg-nextjs-template-alpha <YOUR_APP_NAME>
 ```
 
 - Then run the local server using `pnpm dev`
