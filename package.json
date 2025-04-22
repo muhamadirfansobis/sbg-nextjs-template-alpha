@@ -12,7 +12,8 @@
     "lint": "next lint",
     "lint:fix": "eslint --ext ts, tsx --fix",
     "test": "vitest",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "test:related": "TZ='Asia/Jakarta' vitest related --run --coverage"
   },
   "dependencies": {
     "@commitlint/cli": "^19.8.0",
