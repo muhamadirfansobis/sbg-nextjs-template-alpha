@@ -1,5 +1,5 @@
 # SBG Landing Page Next App Starter Template
-![Yehezkiel Gunawan's Next JS + Chakra UI Personalized template](https://res.cloudinary.com/dakonxtdt/image/upload/v1745290166/80d04d4f-e211-4ce6-b944-05e26bf0aad5_ou5xvz.svg)
+![image](https://res.cloudinary.com/dakonxtdt/image/upload/v1746002456/Logo_SEMENTARA_omkbus_1_oot0gc.svg)
 
 
 [![forthebadge](https://res.cloudinary.com/yehez/image/upload/v1635325228/made-by-typescript_mz1tue.svg)](https://forthebadge.com)
