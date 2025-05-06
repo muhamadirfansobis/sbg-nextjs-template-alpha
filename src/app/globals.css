@@ -16,8 +16,6 @@
   /* SBG color */
   --color-sbg-500: #247bdf;
   --color-sbg-900: #172636;
-
-  /* Add custom color scheme here */
 }
 
 @media (prefers-color-scheme: dark) {
