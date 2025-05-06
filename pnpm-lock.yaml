@@ -29,12 +29,6 @@ importers:
       react-dom:
         specifier: ^19.0.0
         version: 19.1.0(react@19.1.0)
-      sbg-design-system-alpha:
-        specifier: link:../../../../Library/pnpm/global/5/node_modules/sbg-design-system-alpha
-        version: link:../../../../Library/pnpm/global/5/node_modules/sbg-design-system-alpha
-      sbg-icon-beta:
-        specifier: 1.0.8-3
-        version: 1.0.8-3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
     devDependencies:
       '@eslint/eslintrc':
         specifier: ^3
@@ -2761,12 +2755,6 @@ packages:
   saxes@6.0.0:
     resolution: {integrity: sha512-xAg7SOnEhrm5zI3puOOKyy1OMcMlIJZYNJY7xLBwSze0UjhPLnWfj2GF2EpT0jmzaJKIWKHLsaSSajf35bcYnA==}
     engines: {node: '>=v12.22.7'}
-
-  sbg-icon-beta@1.0.8-3:
-    resolution: {integrity: sha512-W3krn/VuneKgd1WyFWWp89DIdqUYoa6qGOv5/jyW7JQ2XrfYktUIvZdLTO1KdTGe5V7q8qzb1U3MltwAnwYM7Q==}
-    peerDependencies:
-      react: ^16.13.1 || ^19.1.0
-      react-dom: ^16.13.1 || ^19.1.0
 
   scheduler@0.26.0:
     resolution: {integrity: sha512-NlHwttCI/l5gCPR3D1nNXtWABUmBwvZpEQiD4IXSbIDq8BzLIK/7Ir5gTFSGZDUu37K5cMNp0hFtzO38sC7gWA==}
@@ -5968,11 +5956,6 @@ snapshots:
   saxes@6.0.0:
     dependencies:
       xmlchars: 2.2.0
-
-  sbg-icon-beta@1.0.8-3(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
-    dependencies:
-      react: 19.1.0
-      react-dom: 19.1.0(react@19.1.0)
 
   scheduler@0.26.0: {}
 
