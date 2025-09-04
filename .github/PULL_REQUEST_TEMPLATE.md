@@ -1,27 +1,48 @@
-## What are you trying to do?
+# 🚀 Pull Request
 
-fill here...
+## Description
 
-### Insert Task Link if exist
+Please include a summary of the change and which issue is fixed.
+Also include relevant motivation and context.
 
-fill here...
+Fixes # (issue)
 
-### RFC Link if exist
+## 📋 Checklist
 
-fill here...
+- [ ] My code follows the project's coding style
+- [ ] I have performed a self-review of my own code
+- [ ] I have commented my code, especially in hard-to-understand areas
+- [ ] I have added tests that prove my fix is effective or that my feature works
+- [ ] New and existing unit tests pass locally
+- [ ] I have updated documentation if necessary
 
-## What/where do you need us to highlight
+## 💡 Changes
 
-fill here...
+- Feature 1: ...
+- Bugfix: ...
+- Refactor: ...
+- Other: ...
 
-## If there are any Ul update, please upload the
+## 💬 Screenshots / Demo (if UI changes)
 
-image here...
+_Paste images or link to demo environment._
 
-## Mandatory Reviewer
+## 📂 Affected areas
 
-fill here...
+List of components/modules/files affected:
 
-## Expected to be reviewed: <1h hour/3 hour/EOD/2 days/3 days>
+- `src/components/Button.tsx`
+- `lib/api/auth.ts`
 
-fill here...
+## 🧪 Test Plan
+
+Describe how to test your changes step by step.
+
+## 🔗 Related Links
+
+- Jira/Notion ticket: [Ticket Name](https://link)
+- Design: [Figma link](https://link)
+
+---
+
+> _Please squash commits before merge if needed._

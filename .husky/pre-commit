@@ -1,0 +1,22 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo ""
+echo "🧩✨  [SBG Next.js Starter Template] — Pre-Commit Hook Activated!"
+echo "🔧 Running: lint-staged for quality checks..."
+echo ""
+
+pnpm lint-staged
+
+if [ $? -eq 0 ]; then
+  echo ""
+  echo "✅ Success! Code looks sharp, clean, and ready to ship."
+  echo "🚀 Let's build something amazing with SBG Next.js!"
+  echo ""
+else
+  echo ""
+  echo "❌ Commit rejected. Please fix issues above before continuing."
+  echo "💡 Pro Tip: Run \`pnpm lint\` or \`pnpm format\` manually to debug."
+  echo ""
+  exit 1
+fi
